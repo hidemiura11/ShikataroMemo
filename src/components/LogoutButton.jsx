@@ -1,7 +1,7 @@
 import {
   TouchableOpacity, Text, StyleSheet, Alert,
 } from 'react-native';
-import firebase from 'firebase';
+import firebase from 'firebase/compat/app';
 import { useNavigation } from '@react-navigation/native';
 import { shape, func } from 'prop-types';
 

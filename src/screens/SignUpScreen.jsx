@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import {
   StyleSheet, Text, TextInput, View, TouchableOpacity, Alert, Image,
 } from 'react-native';
-import firebase from 'firebase';
+import firebase from 'firebase/compat/app';
 
 import Button from '../components/Button';
 import Loading from '../components/Loading';

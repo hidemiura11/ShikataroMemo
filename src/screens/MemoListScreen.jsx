@@ -2,7 +2,7 @@ import {
   StyleSheet, View, Text, Alert, Image,
 } from 'react-native';
 import { useEffect, useState } from 'react';
-import firebase from 'firebase';
+import firebase from 'firebase/compat/app';
 
 import MemoList from '../components/MemoList';
 import CircleButton from '../components/CircleButton';

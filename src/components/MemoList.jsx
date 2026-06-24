@@ -6,7 +6,7 @@ import { useNavigation } from '@react-navigation/native';
 import {
   shape, string, instanceOf, arrayOf,
 } from 'prop-types';
-import firebase from 'firebase';
+import firebase from 'firebase/compat/app';
 
 import { dateToString } from '../utilities';
 
